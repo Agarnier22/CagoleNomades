@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    // border: 1px solid red;
+    background-color: #99c5c3;
+    p{
+        color: white;
+    }
+}
+// flex container for icons
+.icons{
+    width: 100%;
+    height: 50px;
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    img{
+        color: white;
+        margin-left: 10px;
+    }
+}
+// flex container for icons
