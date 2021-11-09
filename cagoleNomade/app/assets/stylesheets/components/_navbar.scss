@@ -6,7 +6,8 @@
     height: 50px;
 
     .login {
-      font-size: 24px;
+      font-size: 15px;
+      font-weight: bold;
       color: $dark-gray;
       padding-right: 100px;
       cursor: pointer;
@@ -49,9 +50,10 @@
       }
 
       &::placeholder {
-        color: $gray;
+        color: rgb(187, 187, 187);
         font-size: 1.2em;
         text-align: left;
+        
       }
     }
   }
