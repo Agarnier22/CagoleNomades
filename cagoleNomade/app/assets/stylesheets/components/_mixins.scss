@@ -1,0 +1,30 @@
+// flex box
+@mixin flex ($jcontent, $aitems, $direction) {
+  display: flex;
+  justify-content: $jcontent;
+  align-items: $aitems;
+  flex-direction: $direction;
+}
+
+// width calculation for header
+@mixin main-width {
+  // width: $var-main-width;
+}
+
+// position
+@mixin position ($post-type, $top, $right, $bottom, $left) {
+  position: $post-type;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+// media queries
+@mixin breakpoint($point) {
+  @if $point == mobile {
+    @media only screen and (max-width: 576px) {
+      @content;
+    }
+  }
+}

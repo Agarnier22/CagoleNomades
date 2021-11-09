@@ -1,0 +1,28 @@
+<nav class="nav">
+  <ul class="nav__top-part">
+    <li class="login">Log-in</li>
+  </ul>
+  <ul class="nav__bottom-part">
+    <li class="nav-logo">
+      <%= image_tag "logo.png", class:"logo" %>
+    </li>
+    <li class="searchbar">
+      <input type="search" id="search" class="nav-search" name="q" placeholder="Rechercher">
+    </li>
+    <li ontouchstart>
+      <nav class="nav-burger">
+          <%= image_tag "burger.png" %>
+        <div class="nav-burger__link-group">
+          <a href="#" class="nav-burger__link">Accueil</a>
+          <a href="#" class="nav-burger__link">Présentation</a>
+          <a href="#" class="nav-burger__link">Catalogue</a>
+          <a href="#" class="nav-burger__link">Goodies ecoresponsables</a>
+          <a href="#" class="nav-burger__link">Evènements</a>
+          <a href="#" class="nav-burger__link">Se connecter</a>
+          <a href="#" class="nav-burger__link">Panier</a>
+          <a href="#" class="nav-burger__link">Contact</a>
+        </div>
+      </nav>
+    </li>
+  </ul>
+</nav>
