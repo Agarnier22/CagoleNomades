@@ -1,0 +1,17 @@
+.container__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px 1fr 80px;
+  height: auto;
+  margin: 0 auto;
+  column-gap: 20px;
+
+  .produits {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include flex(flex-start, center, null);
+    color: $gray;
+  }
+}
