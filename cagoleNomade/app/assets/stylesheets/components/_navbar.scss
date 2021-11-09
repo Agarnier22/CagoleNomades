@@ -1,7 +1,5 @@
 .nav {
   background: $light-gray;
-  height: 50px;
-
   // nav bar top part
   &__top-part {
     @include flex (flex-end, center, row);
