@@ -12,7 +12,6 @@
       padding-right: 100px;
       cursor: pointer;
       transition: 300ms;
-
       &:hover {
         color: $gray;
       }
@@ -40,7 +39,7 @@
       width: 435px;
       background-color: $light-gray;
       border-radius: 50px;
-      border: none;
+      border: 1px solid rgb(226, 226, 214);
       filter: drop-shadow(5px 5px 10px rgba(0, 0 ,0 ,.05));
       transition: 300ms;
       padding-left: 20px;

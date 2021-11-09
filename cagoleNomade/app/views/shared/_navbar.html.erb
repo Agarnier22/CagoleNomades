@@ -4,7 +4,7 @@
   </ul>
   <ul class="nav__bottom-part">
     <li class="nav-logo">
-      <%= image_tag "logo.png", class:"logo" %>
+      <%= link_to(image_tag("logo.png", class: 'logo'), pages_path,  :method => :get) %>
     </li>
     <li class="searchbar">
       <input type="search" id="search" class="nav-search" name="q" placeholder="Rechercher">

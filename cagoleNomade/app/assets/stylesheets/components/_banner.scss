@@ -23,23 +23,29 @@
     // border: 1px solid red;
     width: 50%;
     height: 80%;
-    background-color: rgba(255, 255, 255, 0.197);
+    background-color: rgba(255, 255, 255, 0.347);
     border-radius: 5px;
     h1{
         color: white;
         font-size: 70px;
         text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        line-height: 70px;
     }
+ .btn-cont{
+    width: 100%;
+     margin-top: 60px;
+ }
     .btn-more{
-        height: 80px;
-        width: 180px;
-        margin-left: 390px;
-        margin-top:10px;
+        padding: 15px;
+        margin-left: 400px;
         font-size: 30px;
+        color: #2f5a6d;
         background-color:#99c5c3;
-        border: none;
+        border: 1px solid rgb(0, 251, 255);
         border-radius: 10px;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.694);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.51);
+        mix-blend-mode:multiply;
+        font-family: "Anton";
     }
     .btn-more:hover{
         background-color: #5eaba7;
