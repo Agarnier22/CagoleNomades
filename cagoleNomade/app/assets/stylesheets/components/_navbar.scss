@@ -1,15 +1,41 @@
 .nav {
   background: $light-gray;
   height: 50px;
-  @include flex (flex-end, center, row);
-  &__login {
-    font-size: 24px;
-    color: $dark-gray;
-    padding-right: 100px;
-    cursor: pointer;
-    transition: 300ms;
-    &:hover {
-      color: $gray;
+
+  // nav bar top part
+  &__top-part {
+    @include flex (flex-end, center, row);
+    height: 50px;
+
+    .login {
+      font-size: 24px;
+      color: $dark-gray;
+      padding-right: 100px;
+      cursor: pointer;
+      transition: 300ms;
+
+      &:hover {
+        color: $gray;
+      }
+    }
+  }
+
+  // navbar bottom part (logo | searchbar | hamburger)
+  &__bottom-part {
+    @include flex (space-between, center, row);
+    height: 120px;
+    background: palegoldenrod;
+    .nav__logo {
+      padding-left: 145px;
+    }
+    .nav__search {
+      height: 45px;
+      width: 435px;
+      background-color: $light-gray;
+      ;
+    }
+    .nav__burger {
+      padding-right: 110px;
     }
   }
 }
