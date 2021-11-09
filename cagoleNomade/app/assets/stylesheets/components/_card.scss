@@ -24,7 +24,7 @@
   bottom: 0;
   height: 5em;
   width: 100%;
-  background-color: rgba(153, 197, 195, 0.8);
+  background-color: rgba(153, 197, 195, 0.85);
   ;
   margin: 0;
   font-size: 18px;
@@ -33,7 +33,7 @@
   border-radius: 0 0 10px 10px;
   color: white;
   padding: 0 10px 0 10px;
-  @include flex(flex-start, center, row);
+  @include flex(center, center, row);
 }
 
 .card {
