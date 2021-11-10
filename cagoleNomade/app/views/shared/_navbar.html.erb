@@ -11,10 +11,10 @@
     </li>
     <li ontouchstart>
       <nav class="nav-burger">
-          <%= image_tag "burger.png" %>
+        <%= image_tag "burger.png" %>
         <div class="nav-burger__link-group">
           <a href="#" class="nav-burger__link">Accueil</a>
-          <a href="#" class="nav-burger__link">Présentation</a>
+          <%= link_to "Présentation", about_path, class: "nav-burger__link" %>
           <a href="#" class="nav-burger__link">Catalogue</a>
           <a href="#" class="nav-burger__link">Goodies ecoresponsables</a>
           <a href="#" class="nav-burger__link">Evènements</a>
